@@ -1,0 +1,12 @@
+#!/bin/rc
+
+# inspired by / taken from Russ Cox's presentation scripts of the same name
+
+# set the window's filename to the given name
+echo name `{pwd}^/$1 > /mnt/acme/$winid/ctl
+
+# mark the window's state as clean
+echo clean > /mnt/acme/$winid/ctl
+
+# load the file of the above name
+echo get > /mnt/acme/$winid/ctl
