@@ -11,3 +11,6 @@
   - Prefers rescheduling on same CPU
 
 - Scheduler dispatches processes, not threads  
+
+- Threads do exist, however
+  - Special call to rfork() syscall
