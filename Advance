@@ -1,0 +1,19 @@
+#!/bin/rc
+
+fn winname {
+	cat /mnt/acme/$winid/tag | awk '{ print $1 }'
+}
+
+fn leadingnum {
+	ssam -n '/[0-9]+/p'
+}
+
+fn nextnum {
+	sed 's/$/ + 1/' | bc
+}
+
+next=`{basename `{winname} | leadingnum | nextnum}
+
+presfiles=(*^$filesuffix)
+
+Slide $presfiles($next)

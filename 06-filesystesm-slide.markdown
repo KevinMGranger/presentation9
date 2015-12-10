@@ -17,7 +17,7 @@
 		- /$cputype/bin
 		- /rc/bin
 
-# WORM
+# Storage Itself
 
 - Write Once Read Many
 
