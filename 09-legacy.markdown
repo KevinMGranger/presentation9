@@ -14,6 +14,7 @@
 - OSes:
 	- Inferno
 	- Akaros
+	- Octopus
 
 - plan 9 from user space (plan9port)
 
