@@ -16,4 +16,9 @@
   - queueing locks
   - reader/writer locks
 
+- Channels
+  - A queue for fixed-size messages
+    - Can be buffered or unbuffered
+  - Processes and threads can send() and recv() messages
+    - Unbuffered channels block on send, unblock on corresponding recv
 

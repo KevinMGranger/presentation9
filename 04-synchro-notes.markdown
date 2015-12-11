@@ -12,3 +12,11 @@
 - The first process to reach the rendezvous call suspends execution until the other process reaches its own.  Then, botth processes are awakened, and their respective calls to rendezvous return the value the other process passed in.
 
 - The rendezvous system call is deceptively simple, and can be used to implement more complicated synchronization routines.
+
+- Another method for interprocess communication is a through mechanism called Channels.  
+  - Channels are essentialy queues where processes can put fixed-size messages.  
+    - These can be buffered and unbuffered.
+  - Processes and threads use the send and recv syscalls to communicate using the Channels
+    - When using an unbuffered channel, send()ing a message to it causes it to lock until it recieves a recv system call.
+
+- These channels are similar to the ones found in the Go programming language, which is coincidentally developed by some of the same people.
