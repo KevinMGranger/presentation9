@@ -1,25 +1,12 @@
-# Plan 9's Legacy
+- Inferno: plan9, but with a vm
+- Plan B & Octopus:
+	- some userspace changes, a Microkernel, new ways of organizing some things
+	- orchestration worked differently
+	- Honestly? Not sure. No man intro, no 2-line summary.
+- Akaros:
+	- Inferno, but with a giraffe
 
-- Where it's used today
-
-
-# Ideas that live on
-
-- Linux:
-	- /proc
-	- 9p
-	- 9p virtio
-	- namespaces (cgroups)
-
-- OSes:
-	- Inferno
-	- Akaros
-	- Octopus
-
-- plan 9 from user space (plan9port)
-
-
-# The rfork'd (children)
-
-- 9front
-- Harvey OS
+- 9front: you know...
+- Harvey OS:
+	- GCC / clang, 64-bit.
+	- Experiment a bit.
