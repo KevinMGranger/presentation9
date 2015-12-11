@@ -14,12 +14,21 @@
 		- Optical Drive
 	- "With the high-speed links, it is unnecessary for clients to cache data; the file server centralizes the caching for all its clients, avoiding the problems of distributed caches."
 
+- Venti: hash-identified block storage
+	- a-la git or swift or s3
+	- merkle trees!
+
+- Fossil: meant to eventually replace parts of the file server code and kernel-level code
+	- Uses same system representation as venti (Vac) but on-disk format facilitates snapshots
+	- keeps local stuff up to date, sends old stuff to venti
+
+- came about in 2002, zfs was announced in 2004 (theoretically started in 2001)
 
 # Synthetic Filesystems
 
 - /proc
 	- ctl and note instead of signals
-	- no `top`
+
 
 # Sources
 

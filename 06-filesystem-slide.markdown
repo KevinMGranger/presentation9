@@ -20,11 +20,12 @@
 		- /rc/bin
 
 
-# Storage Itself
+# Storage Itself / Filesystems Themselves
 
 - Original Setup
 	- Only cached on file server!?
-
+	- WORM
+- Fossil & Venti
 
 # Synthetic Filesystems
 
