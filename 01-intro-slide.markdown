@@ -31,12 +31,17 @@ Ryan Gannon, Kevin Granger, Glenda
 - Language Support:
 	- C (Dennis Ritchie)
 		- Not your parent process's C (helloworld.c)
+	- Alef
+		- GoC
+		- later replaced
 	- rc
 		- awk, sed, sam (ssam)
 
 - UTF-8 everything
 	- Invented for Plan 9
 
+- Distributed
+- Filesystems / Namespaces
 
 # When?
 
